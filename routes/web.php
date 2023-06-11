@@ -38,6 +38,7 @@ Route::group(['middleware' => 'pemilik'], function () {
     // Rute-rute yang hanya dapat diakses oleh Pemilik
     Route::get('/laporan', function () {return view('laporan');});
     Route::get('/laporanadmin', [App\Http\Controllers\HomeController::class, 'laporanadmin'])->name('laporanadmin');
+    Route::get('/laporanadmin1', [App\Http\Controllers\HomeController::class, 'laporanadmin1'])->name('laporanadmin1');
 });
 
 Route::group(['middleware' => 'gudang'], function () {

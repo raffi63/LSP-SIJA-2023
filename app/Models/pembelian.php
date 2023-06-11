@@ -23,4 +23,7 @@ class pembelian extends Model
     public function fusers(){
     return $this->belongsTo(User::class, 'id_users', 'id');
     }
+    public function fdpembelian(){
+    return $this->belongsTo(detail_pembelian::class, 'id', 'id_pembelian');
+    }
 }

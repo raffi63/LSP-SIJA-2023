@@ -301,6 +301,18 @@ return [
         'can'    => 'pemilik-only'
         ], 
         [
+        'text' => 'Laporan Penjualan',
+        'url' => '/laporanadmin',
+        'icon' => 'fa fa-flag-checkered',
+        'can'    => 'pemilik-only'
+        ],
+        [
+        'text' => 'Laporan Pembelian',
+        'url' => '/laporanadmin1',
+        'icon' => 'fa fa-flag-checkered',
+        'can'    => 'pemilik-only'
+        ],
+        [
         'header' => 'Anda Login Sebagai Apoteker',
         'can'    => 'apoteker-only'
         ],
