@@ -1,0 +1,64 @@
+.h1abawt {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.pabawt {
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translateY(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translateY(0px);
+    }
+}
+
+.containerabawt {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatarabawt {
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+    border: 5px white solid;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.avatarabawt img {
+    width: 100%;
+    height: auto;
+}
+
+.contentabawt {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}

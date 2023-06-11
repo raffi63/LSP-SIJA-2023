@@ -1,0 +1,7 @@
+.similar-image {
+    background-image: url('https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/7005262/1820/1211/m1/fpnw/wm1/hud_39_cm_main_preview-.jpg?1569008319&s=fb9e42b34e020903e3d6d9f4d0e3ac9d');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
